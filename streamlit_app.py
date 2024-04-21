@@ -1,8 +1,8 @@
 import streamlit as st
 st.print("Enter 3 numbers")
-a=st.input()
-b=st.input()
-c=st.input()
+float a=st.input()
+float b=st.input()
+float c=st.input()
 if a>b:
   if a>c:
     st.print(a+" is the greatest number")
